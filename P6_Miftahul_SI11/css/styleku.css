@@ -1,0 +1,47 @@
+body{
+    background-color: wheat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Untuk ubah style Header */
+#header{
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px;
+}
+
+#header h1{
+    color: red;
+}
+
+#header blockquote{
+    background-color: orange;
+    border: 3px dotted black;
+}
+
+/* Untuk ubah style Menu */
+.menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+/* Untuk ubah style Gambar */
+.gambar{
+    text-align: center;
+}
+.gambar img{
+    width: 20%;
+}
+/* Untuk ubah style Koleksi */
+.koleksi{
+    text-align: center;
+}
+.koleksi img{
+    width: 20%;
+}
+
+.promo{
+    color: red;
+    }
